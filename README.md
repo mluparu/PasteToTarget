@@ -3,6 +3,8 @@
 
 This small VS editor extension turns Copy/Paste from **Search/Copy/Go-Back/Paste** to **Set-Paste-Target/Search/Copy**. Right after Ctrl+C, before pressing Ctrl+V, it's often frustrating to navigate back to the editor I started from. This tool will do that automatically when Ctrl+C is pressed. I find this helpful and decided to publish this extension just in case others might too. But your mileage may vary :)
 
+Download VSIX from [PasteToTarget's Visual Studio Gallery homepage](https://visualstudiogallery.msdn.microsoft.com/ca0c4a6d-fa78-4366-bb26-c7f3044e3a7b)
+
 ##Before
 Copy/Paste works best when you're browsing information and find something interesting and decide to save it or use it. It's not as great when you're actively coding and decide you need a piece of code that's somewhere else. For the untrained eye it may seem you're still only doing (1) Copy and (2) Paste but the reality is:
 
