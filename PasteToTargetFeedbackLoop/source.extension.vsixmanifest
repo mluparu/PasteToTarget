@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="PasteToTargetFeedbackLoop..6bcc6af5-4896-46bf-b869-1179dd9d9069" Version="1.1" Language="en-US" Publisher="Marian Luparu" />
+    <DisplayName>PasteToTargetFeedbackLoop</DisplayName>
+    <Description xml:space="preserve">Speeds-up Copy/Paste operations by navigating back to the selected target once the Clipboard Copy (Ctrl+C) operation is performed. 
+
+First, Alt+V to set a paste target. Then, Ctrl+C to Copy *and* Paste from anywhere! 
+</Description>
+    <Icon>PasteToTarget.ico</Icon>
+    <PreviewImage>LargeImage.png</PreviewImage>
+    <Tags>paste, paste target, clipboard, monitor, editor</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="12.0" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
+</PackageManifest>
