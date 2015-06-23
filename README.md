@@ -1,4 +1,4 @@
-# PasteToTarget
+# Paste To Target
 **Alt+V** to set a paste target. **Ctrl+C** to Copy _and_ Paste
 
 This small VS editor extension turns Copy/Paste from **Search/Copy/Go-Back/Paste** to **Set-Paste-Target/Search/Copy**. Right after Ctrl+C, before pressing Ctrl+V, it's often frustrating to navigate back to the editor I started from. This tool will do that automatically when Ctrl+C is pressed. I find this helpful and decided to publish this extension just in case others might too. But your mileage may vary :)
