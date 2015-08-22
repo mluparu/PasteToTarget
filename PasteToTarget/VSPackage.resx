@@ -135,6 +135,6 @@
     <value>Speeds-up Copy/Paste operations by navigating back to the selected target once the Clipboard Copy (Ctrl+C) operation is performed. </value>
   </data>
   <data name="400" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\Package.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\PasteToTarget.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
