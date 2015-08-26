@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="9bf684bc-af38-4ade-85b3-984586f64c8c" Version="1.1" Language="en-US" Publisher="Marian Luparu" />
+    <Identity Id="9bf684bc-af38-4ade-85b3-984586f64c8c" Version="1.2" Language="en-US" Publisher="Marian Luparu" />
     <DisplayName>Paste To Target</DisplayName>
     <Description xml:space="preserve">Speeds-up Copy/Paste operations by navigating back to the selected target once the Clipboard Copy (Ctrl+C) operation is performed. 
 

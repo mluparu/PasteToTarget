@@ -90,7 +90,9 @@ namespace Microsoft.PasteToTargetFeedbackLoop
 
         public static void Restore(TextSelectionState state, ITextSelection selection, ITextCaret caret)
         {
-            caret.MoveTo(state.m_caretPosition.BufferPosition, state.m_caretPosition.Affinity);
+            caret.MoveTo(
+                state.m_caretPosition.BufferPosition.TranslateTo(selection.TextView.TextSnapshot, PointTrackingMode.Positive), 
+                state.m_caretPosition.Affinity);
 
             selection.Mode = state.m_mode;
             
